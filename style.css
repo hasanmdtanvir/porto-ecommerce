@@ -48,16 +48,20 @@ body {
 }
 
 .top-bar-dropdown-left {
-    background-color: yellow;
+    background-color: #fff;
     /* width: 80%; */
     position: absolute;
-    top: 140%;
-    padding-left: 10px;
-    padding-right: 10px;
+    top: 150%;
+    padding: 15px 5px;
 }
 
 .top-bar-dropdown-left-item {
     position: relative;
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: gray;
 }
 
 .english-space {
@@ -78,11 +82,12 @@ body {
 .little-triangle {
     display: inline-block;
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 20px;
-    height: 20px;
-    border: 2px solid red;
+    left: 35%;
+    top: -5px;
+    width: 15px;
+    height: 15px;
+    /* border: 2px solid red; */
+    background-color: #fff;
     transform: rotate(45deg);
 }
 
