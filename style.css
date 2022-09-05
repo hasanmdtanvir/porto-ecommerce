@@ -43,6 +43,23 @@ body {
     flex-wrap: wrap;
 }
 
+.top-bar-left-item-link {
+    position: relative;
+}
+
+.top-bar-dropdown-left {
+    background-color: yellow;
+    /* width: 80%; */
+    position: absolute;
+    top: 140%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top-bar-dropdown-left-item {
+    position: relative;
+}
+
 .english-space {
     margin-right: 15px;
 }
@@ -55,6 +72,18 @@ body {
 .top-bar-left-item {
     display: flex;
     gap: 5px;
+
+}
+
+.little-triangle {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid red;
+    transform: rotate(45deg);
 }
 
 .top-bar-left-item a {
