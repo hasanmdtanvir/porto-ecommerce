@@ -47,7 +47,9 @@ body {
     position: relative;
 }
 
-.top-bar-dropdown-left {
+.top-bar-dropdown-left,
+.top-bar-dropdown-left2 {
+    display: none;
     background-color: #fff;
     /* width: 80%; */
     position: absolute;
@@ -55,11 +57,24 @@ body {
     padding: 15px 5px;
 }
 
-.bg-shadow {
-    box-shadow: 0px 2px 15px rgba(219, 213, 213, 0.8);
+.top-bar-dropdown-left-spacing {
+    padding-right: 20px;
 }
 
-.top-bar-dropdown-left-item {
+.top-bar-left-item-link:hover .top-bar-dropdown-left {
+    display: block;
+}
+
+.top-bar-left-item-link2:hover .top-bar-dropdown-left2 {
+    display: block;
+}
+
+.bg-shadow {
+    box-shadow: 0px 2px 15px rgba(219, 213, 213, 0.9);
+}
+
+.top-bar-dropdown-left-item,
+.top-bar-dropdown-left-item2 {
     position: relative;
     list-style: none;
     display: flex;
