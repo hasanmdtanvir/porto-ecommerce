@@ -13,6 +13,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .wrapper {
     max-width: 1200px;
     margin-left: auto;
@@ -239,4 +244,168 @@ h6 {
     align-items: center;
     justify-content: center;
     font-size: 20px;
+}
+
+/* hero section  */
+.hero-section {
+    display: flex;
+    gap: 20px;
+}
+
+.sidebar-home {
+    border: 1px solid #e7e7e7;
+    flex: 0 0 25%;
+    width: 25%;
+    /* padding: 10px; */
+    height: 100%;
+}
+
+.side-menu-title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #555;
+}
+
+.menu a i {
+    color: #555;
+    margin-right: 10px;
+}
+
+.menu li {
+    margin-top: 1px;
+    padding: 10px 10px;
+    border-bottom: 1px solid #e7e7e7;
+    /* margin-bottom: 20px; */
+}
+
+.menu li:first-child,
+.menu li:last-child {
+    border-bottom: none;
+}
+
+.active-home {
+    background-color: #0188CC;
+
+}
+
+.active-home a,
+.active-home a i {
+    color: white;
+}
+
+.menu li:hover {
+    background-color: #0188CC;
+}
+
+.menu li:hover a,
+.menu li:hover i {
+    color: white;
+}
+
+.dropdown-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li a .fa-angle-right {
+    font-size: 12px;
+
+}
+
+.hero-right-segment {
+    flex: 0 0 75%;
+    width: 75%;
+    position: relative;
+    /* height: 100%; */
+}
+
+.hero-right-segment img {
+    width: 100%;
+    /* position: relative; */
+    height: 90%;
+}
+
+.banner-layer {
+    position: absolute;
+    left: 6%;
+    top: 20%;
+    color: white;
+}
+
+.banner-layer h4 {
+    font-size: 0.9625em;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    opacity: 0.7;
+
+}
+
+.banner-layer h2 {
+    font-size: 2.734375em;
+    letter-spacing: 0.002em;
+    font-family: "Segoe Script", "Savoye LET";
+}
+
+.banner-layer h3 {
+    font-size: 4.75em;
+    line-height: 1;
+    margin-bottom: 1.6rem;
+}
+
+.banner-layer h5 {
+    /* display: inline-block; */
+    font-size: 0.875em;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.coupon {
+    /* display: inline-block; */
+    /* margin-right: 0.5em; */
+    /* margin-left: 1em; */
+    font-size: 1.09em;
+    position: relative;
+    display: flex;
+    gap: 10px;
+
+}
+
+.coupon span {
+    font-size: 12px;
+    font-weight: 600;
+    /* position: absolute; */
+}
+
+.coupon-inner {
+    display: flex;
+    background-color: #ff7272;
+    position: relative;
+    /* display: inline-block; */
+    padding: 5px 8px;
+    transform: rotate(-2deg);
+    height: 100%;
+}
+
+.coupon-inner span:last-child {
+    margin-left: 3px;
+}
+
+.banner-btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #222529;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: .8rem;
+    font-weight: bold;
 }
